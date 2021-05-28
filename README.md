@@ -1,0 +1,2 @@
+# gblog
+gin blog
