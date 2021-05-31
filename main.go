@@ -1,7 +1,12 @@
 package main
 
-import "gblog/routers"
+import (
+	"gblog/model"
+	"gblog/routes"
+)
 
 func main() {
-	routers.InitRouter()
+	model.InitDb()
+	routes.InitRouter()
+
 }
